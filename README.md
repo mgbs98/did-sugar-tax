@@ -70,7 +70,7 @@ We can see the results of the dynamic specification graphically by plotting $\ta
 
 **Figure 2**: The Effect of the Sugar Tax on Non-Alcoholic Beverages - Dynamic Specification.
 
-![image](diff-in-diff_sugar_tax.png)
+![The Effect of the Sugar Tax on Non-Alcoholic Beverages - Dynamic Specification](./figures/diff-in-diff_sugar_tax.png)
 
 Source: Author's Calculations.
 
@@ -91,14 +91,14 @@ The results obtained from the static model can be seen in Table 1. To verify the
 
 **Table 1**: Static Model Results - Effect of the Sugar Tax on Non-Alcoholic Beverages.
 
-![Static Model Results - Effect of the Sugar Tax on Non-Alcoholic Beverages](static_model_results_tab.png)
+![Static Model Results - Effect of the Sugar Tax on Non-Alcoholic Beverages](./figures/static_model_results_tab.png)
 
 Source: Author's Calculations.
 
 
 **Figure 3**: Effect of the Sugar Tax on Non-Alcoholic Beverages - Error Bars.
 
-![Effect of the Sugar-Tax on Non-Alcoholic Beverages - Error Bars](static_model_plot.png)
+![Effect of the Sugar-Tax on Non-Alcoholic Beverages - Error Bars](./figures/static_model_plot.png)
 
 Source: Author's Calculations.
 
@@ -140,85 +140,85 @@ Eight different control variables were used in the extended model presented in E
 
 **Figure 4**: Monthly Unemployment Rate - Atlantic Provinces
 
-![Monthly Unemployment Rate - Atlantic Provinces](unemployment_rate_Atlantic.png)
+![Monthly Unemployment Rate - Atlantic Provinces](./figures/unemployment_rate_Atlantic.png)
 
 Source: Statistics Canada. [Table 14-10-0287-03 - Labour force characteristics by province, monthly, seasonally adjusted](https://doi.org/10.25318/1410028701-eng)
 
 **Figure 5**: Monthly Unemployment Rate - Prarie Provinces
 
-![Monthly Unemployment Rate - Prarie Provinces](unemployment_rate_Praries.png)
+![Monthly Unemployment Rate - Prarie Provinces](./figures/unemployment_rate_Praries.png)
 
 Source: Statistics Canada. [Table 14-10-0287-03 - Labour force characteristics by province, monthly, seasonally adjusted](https://doi.org/10.25318/1410028701-eng)
 
 **Figure 6**: Monthly Unemployment Rate - Ontario, Quebéc and British Columbia
 
-![Monthly Unemployment Rate - Ontario, Quebéc and British Columbia](unemployment_rate_ON_QC_BC.png)
+![Monthly Unemployment Rate - Ontario, Quebéc and British Columbia](./figures/unemployment_rate_ON_QC_BC.png)
 
 Source: Statistics Canada. [Table 14-10-0287-03 - Labour force characteristics by province, monthly, seasonally adjusted](https://doi.org/10.25318/1410028701-eng)
 
 **Figure 7**: Average Weekly Earnings by Province
 
-![Average Weekly Earnings by Province](avg_week_earn.png)
+![Average Weekly Earnings by Province](./figures/avg_week_earn.png)
 
 Source: Statistics Canada. [Table 14-10-0223-01 - Employment and average weekly earnings (including overtime) for all employees by province and territory, monthly, seasonally adjusted](https://doi.org/10.25318/1410022301-eng)
 
 **Figure 8**: Canadian Interest Rates
 
-![Canadian Interest Rates](interest.png)
+![Canadian Interest Rates](./figures/interest.png)
 
 Source: [Bank of Canada. Canadian interest rates and monetary policy variables](https://www.bankofcanada.ca/rates/interest-rates/canadian-interest-rates/).
 
 **Figure 9**: WTI Oil Prices
 
-![WTI Oil Prices](WTI_Oil.png)
+![WTI Oil Prices](./figures/WTI_Oil.png)
 
 Source: [World Bank. Commodity Prices - "Pink Sheet" Table. Monthly Prices.](https://www.worldbank.org/en/research/commodity-markets)
 
 **Figure 10**: CAD/USD Exchange Rate
 
-![CAD/USD Exchange Rate](CADUSD.png)
+![CAD/USD Exchange Rate](./figures/CADUSD.png)
 
 Source: [Yahoo Finance. CAD/USD (CADUSD=X)](https://ca.finance.yahoo.com/quote/CADUSD=X/)
 
 **Figure 11**: Stringency Index (SI) - Atlantic Provinces
 
-![Stringency Index (SI) - Atlantic Provinces](SI_Atlantic.png)
+![Stringency Index (SI) - Atlantic Provinces](./figures/SI_Atlantic.png)
 
 Source: Edouard Mathieu, Hannah Ritchie, Lucas Rodés-Guirao, Cameron Appel, Charlie Giattino, Joe Hasell, Bobbie Macdonald, Saloni Dattani, Diana Beltekian, Esteban Ortiz-Ospina and Max Roser (2020) - "Coronavirus Pandemic (COVID-19)". Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/coronavirus'.
 
 **Figure 12**: Stringency Index (SI) - Prarie Provinces
 
-![Stringency Index (SI) - Prarie Provinces](SI_Praries.png)
+![Stringency Index (SI) - Prarie Provinces](./figures/SI_Praries.png)
 
 Source: Edouard Mathieu, Hannah Ritchie, Lucas Rodés-Guirao, Cameron Appel, Charlie Giattino, Joe Hasell, Bobbie Macdonald, Saloni Dattani, Diana Beltekian, Esteban Ortiz-Ospina and Max Roser (2020) - "Coronavirus Pandemic (COVID-19)". Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/coronavirus'.
 
 **Figure 13**: Stringency Index (SI) - Ontario, Quebéc and British Columbia
 
-![Stringency Index (SI) - Ontario, Quebéc and British Columbia](SI_ON_QC_BC.png)
+![Stringency Index (SI) - Ontario, Quebéc and British Columbia](./figures/SI_ON_QC_BC.png)
 
 Source: Edouard Mathieu, Hannah Ritchie, Lucas Rodés-Guirao, Cameron Appel, Charlie Giattino, Joe Hasell, Bobbie Macdonald, Saloni Dattani, Diana Beltekian, Esteban Ortiz-Ospina and Max Roser (2020) - "Coronavirus Pandemic (COVID-19)". Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/coronavirus'.
 
 
 **Figure 14**: Economic Support Index (ESI) - Atlantic Provinces
 
-![Economic Support Index (ESI) - Atlantic Provinces](ESI_Atlantic.png)
+![Economic Support Index (ESI) - Atlantic Provinces](./figures/ESI_Atlantic.png)
 
 Source: Edouard Mathieu, Hannah Ritchie, Lucas Rodés-Guirao, Cameron Appel, Charlie Giattino, Joe Hasell, Bobbie Macdonald, Saloni Dattani, Diana Beltekian, Esteban Ortiz-Ospina and Max Roser (2020) - "Coronavirus Pandemic (COVID-19)". Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/coronavirus'.
 
 **Figure 15**: Economic Support Index (ESI) - Prarie Provinces
 
-![Economic Support Index (ESI) - Prarie Provinces](ESI_Praries.png)
+![Economic Support Index (ESI) - Prarie Provinces](./figures/ESI_Praries.png)
 
 Source: Edouard Mathieu, Hannah Ritchie, Lucas Rodés-Guirao, Cameron Appel, Charlie Giattino, Joe Hasell, Bobbie Macdonald, Saloni Dattani, Diana Beltekian, Esteban Ortiz-Ospina and Max Roser (2020) - "Coronavirus Pandemic (COVID-19)". Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/coronavirus'.
 
 **Figure 16**: Stringency Index (SI) - Ontario, Quebéc and British Columbia
 
-![Economic Support Index (ESI) - Ontario, Quebéc and British Columbia](ESI_ON_QC_BC.png)
+![Economic Support Index (ESI) - Ontario, Quebéc and British Columbia](./figures/ESI_ON_QC_BC.png)
 
 Source: Edouard Mathieu, Hannah Ritchie, Lucas Rodés-Guirao, Cameron Appel, Charlie Giattino, Joe Hasell, Bobbie Macdonald, Saloni Dattani, Diana Beltekian, Esteban Ortiz-Ospina and Max Roser (2020) - "Coronavirus Pandemic (COVID-19)". Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/coronavirus'.
 
 **Figure 17**: Geopolitical Risk Index (GPR)
 
-![Geopolitical Risk Index (GPR)](GPR.png)
+![Geopolitical Risk Index (GPR)](./figures/GPR.png)
 
 Source: [Caldara, Dario and Matteo Iacoviello (2022), “Measuring Geopolitical Risk,” American Economic Review, April, 112(4), pp.1194-1225.](https://www.matteoiacoviello.com/gpr.htm)
