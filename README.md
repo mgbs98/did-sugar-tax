@@ -23,7 +23,7 @@ However, certain beverages are exempt from the tax:
 - Syrups, purées, and powders used primarily for cooking or food preparation.
 - Beverages prepared at the time of purchase in food and beverage establishments, such as sweetened coffee or tea.
 
-[When it comes to concentrated drink mixtures](https://www.gov.nl.ca/fin/sugar-sweetened-beverage-tax/), including frozen concentrated sweetened fruit punches, flavoured drink crystals, powders, and syrups with added sugar, the a different rate can be applied. For beverages with clear preparation instructions, the tax applies at a rate of 20 cents per litre. However, for those lacking clear instructions, the tax is higher:
+[When it comes to concentrated drink mixtures](https://www.gov.nl.ca/fin/sugar-sweetened-beverage-tax/), including frozen concentrated sweetened fruit punches, flavoured drink crystals, powders, and syrups with added sugar, the different rate can be applied. For beverages with clear preparation instructions, the tax applies at a rate of 20 cents per litre. However, for those lacking clear instructions, the tax is higher:
 
 - 0.80 CAD per litre for frozen concentrated juices,
 - 2.00 CAD per kilogram for flavoured powders,
@@ -40,7 +40,7 @@ I will use the framework of a ***Difference-in-Difference*** (DID) econometric m
 
 ## Methodology
 
-The [difference-in-difference](https://www.sciencedirect.com/science/article/abs/pii/S1573446399030047) (DID) method is commonly used to determine if a particular event caused a change in a specific outcome and to quantify the size of this change. This method is used often for its simplicity and adaptability, making it easy to grasp and apply in various situations (Angrist et al, 1999). It also accounts for changes in the outcome that aren not directly caused by the event itself. However, there are limitations to consider. DID requires two sets of observations, one affected by the event and one not, in other words, a treatment and a control group, respectively. Certain assumptions must be met, including the independence of the event from the outcome variable and the stability of characteristics in both sets of observations. The most crucial assumption is that both sets of data follow a similar trend over time, also referred to as the **parallel trends assumption**. Despite these limitations, the DID method was selected for its ability to meet the research objectives effectively. For this project, I use the [non-alcoholic beverages](https://doi.org/10.25318/1810000401-eng) subset of the Canadian Consumer Price Index (CPI) as the dependent variable.
+The [difference-in-difference](https://www.sciencedirect.com/science/article/abs/pii/S1573446399030047) (DID) method is commonly used to determine if a particular event caused a change in a specific outcome and to quantify the size of this change. This method is used often for its simplicity and adaptability, making it easy to grasp and apply in various situations (Angrist et al, 1999). It also accounts for changes in the outcome that are not directly caused by the event itself. However, there are limitations to consider. DID requires two sets of observations, one affected by the event and one not, in other words, a treatment and a control group, respectively. Certain assumptions must be met, including the independence of the event from the outcome variable and the stability of characteristics in both sets of observations. The most crucial assumption is that both sets of data follow a similar trend over time, also referred to as the **parallel trends assumption**. Despite these limitations, the DID method was selected for its ability to meet the research objectives effectively. For this project, I use the [non-alcoholic beverages](https://doi.org/10.25318/1810000401-eng) subset of the Canadian Consumer Price Index (CPI) as the dependent variable.
 
 To formalize this approach I denote the ten Canadian provinces as $i \in \{1, 2, ..., 10\}$. The time variable is denoted as $t \in \{1, 2, ..., 27 \}$, these integers represent the monthly observations from September 2021 to November 2023. The dependent variable is represented by $Y_{it}$. The binary treatment variable is written as $D_{it} \in \{ 0, 1 \}$, where $D_{it} = 0$ means that province $i$ was not treated at time $t$ and $D_{it}$ means that province $i$ was treated at time $t$. The treatment period is denoted as $E_{i} = min\{t: D_{it} = 1\}$, this period is also referred to as "event time." I also define the variable $K_{it} = E_i - t$ as the ``relative time,'' which expresses time periods as a number relative to the event time. After considering this information, I can write the ***dynamic specification*** as Equation 1:
 
@@ -62,7 +62,7 @@ We can first verify the validity of the parallel trends assumption by analyzing 
 
 **Figure 1**: Non-Alcoholic Beverage Price by Province.
 
-![Non-Alcoholic Beverage Price by Province](non_alcohol_bev.png)
+![Non-Alcoholic Beverage Price by Province](./figures/non_alcohol_bev.png)
 
 Source: Statistics Canada. [Table 18-10-0004-01  Consumer Price Index, monthly, not seasonally adjusted](https://doi.org/10.25318/1810000401-eng)
 
