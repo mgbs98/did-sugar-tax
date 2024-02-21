@@ -1,4 +1,4 @@
-# The Effect of the Sweetened Beverage Tax on Non-Alcoholic Beverages in Newfoundland
+# The Effect of the Sugar-Sweetened Beverage Tax on Non-Alcoholic Beverages in Newfoundland
 
 *The objective of this project is solely to demonstrate how a difference-in-difference model and event study figures can be used to study tax incidence*
 
@@ -66,7 +66,7 @@ We can first verify the validity of the parallel trends assumption by analyzing 
 
 Source: Statistics Canada. [Table 18-10-0004-01  Consumer Price Index, monthly, not seasonally adjusted](https://doi.org/10.25318/1810000401-eng)
 
-We can see the results of the dynamic specification graphically by plotting $\tau_k$ from Equation 1. We can see the dynamic treatment effects plotted in Figure 2. We can see that the pre-trends do not present strong evidence of a systematic violation of the parallel trends assumption, as the lead coefficients are mostly not significantly different than zero. On the other hand, we can see that lag coefficients are significantly different than zero. **These results suggest that the implementation of the tax increase the price of non-alcoholic beverages in NL.**
+We can see the results of the dynamic specification graphically by plotting $\tau_k$ from Equation 1. We can see the dynamic treatment effects plotted in Figure 2. We can see that the pre-trends do not present strong evidence of a systematic violation of the parallel trends assumption, as the lead coefficients are mostly not significantly different than zero. On the other hand, we can see that lag coefficients are significantly different than zero. **These results suggest that the implementation of the tax increased the price of non-alcoholic beverages in NL.**
 
 **Figure 2**: The Effect of the Sugar Tax on Non-Alcoholic Beverages - Dynamic Specification.
 
